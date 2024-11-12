@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007bff">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Scanner</h1>
+        <video id="video" autoplay playsinline></video>
+        <button id="scan-btn" onclick="startScanner()">Start Scanning</button>
+        <div id="result">Scan a QR code to see the result here.</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
